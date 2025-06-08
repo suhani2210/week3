@@ -79,7 +79,7 @@ We've also used a learning rate scheduler to stabilize training.
 - We modified the optimizer to use different learning rates for the final classification layer and the earlier pretrained layers—using a higher learning rate for the final layer to speed up adaptation and a lower rate for the backbone to preserve learned features.
 - Freezing the earlier layers severely hurt accuracy, indicating the model benefited from fine-tuning the full network rather than training only the classifier.
 
-## Comparison based on confusion matrix 
+## Analysis based on confusion matrix 
 
 ### ResNet-152
 - Higher Overall Accuracy:
